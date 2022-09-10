@@ -108,7 +108,7 @@ color: white;
 
 #about {
   background-color: var(--color3);
-  scroll-margin-top: 5px;
+  scroll-margin-top: 2px;
 }
 
 .profile {
@@ -152,7 +152,7 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: repeat(3, minmax(min-content, auto));
     gap: 2rem;
     padding-bottom: 3rem;
-   scroll-margin-top: 5px;
+   scroll-margin-top: 2px;
  }
 
 #projects h2 {
