@@ -107,7 +107,8 @@ color: white;
 }
 
 #about {
-background-color: var(--color3);
+  background-color: var(--color3);
+  scroll-margin-top: 5px;
 }
 
 .profile {
@@ -151,6 +152,7 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: repeat(3, minmax(min-content, auto));
     gap: 2rem;
     padding-bottom: 3rem;
+   scroll-margin-top: 5px;
  }
 
 #projects h2 {
@@ -190,6 +192,7 @@ grid-template-rows: repeat(3, minmax(min-content, auto));
 #contact{
   height: 83vh;
   background-color: var(--color2);
+  scroll-margin-top: 5px;
 }
 
 input, textarea, button {
