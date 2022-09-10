@@ -49,8 +49,8 @@ background-color: var(--color1);
   margin-right: 5rem;
   display: flex;
   justify-content: space-around;
-  padding-top: 0.8rem;
-  margin-top: 1rem;
+  padding-top: 0.6rem;
+  margin-top: 2rem;
 }
 
 #navbar ul li {
