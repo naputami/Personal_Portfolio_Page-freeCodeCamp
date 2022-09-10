@@ -6,12 +6,17 @@
   --color5: #A1683A; 
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
   width: 100vw;
   overflow-x: clip;
-  scroll-behaviour: smooth;
 }
 
 *, *:before, *:after {
